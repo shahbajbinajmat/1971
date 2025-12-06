@@ -1,0 +1,132 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+}
+
+.navbar-brand span.logo-title {
+    font-weight: 700;
+}
+
+.navbar-brand span.logo-subtitle {
+    font-size: 0.75rem;
+    display: block;
+    color: #e5e7eb;
+}
+
+.hero-bg {
+    background: radial-gradient(circle at top left, #fecaca 0, #f9fafb 55%);
+}
+
+.hero-image {
+    border-radius: 0.75rem;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
+    object-fit: cover;
+}
+
+/* Sub-page hero banner */
+/* Base hero style */
+/* Base hero style shared by all sub pages */
+.sub-hero {
+    position: relative;
+    width: 100%;
+    min-height: 360px;
+    /* default height */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Dark gradient overlay instead of flat block */
+.sub-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom,
+            rgba(15, 23, 42, 0.9),
+            /* top: very dark */
+            rgba(15, 23, 42, 0.6),
+            /* middle */
+            rgba(15, 23, 42, 0.9)
+            /* bottom: very dark again */
+        );
+    z-index: 0;
+}
+
+/* Content on top of gradient */
+.sub-hero-overlay {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 2rem 1rem;
+    max-width: 80%;
+}
+
+.sub-hero-title {
+    color: #ffffff;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.sub-hero-text {
+    color: #e5e5e5;
+    font-size: 1.05rem;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/* Unique hero images per page */
+.hero-documents {
+    background-image: url("../img/slider1.jpg");
+}
+
+.hero-interviews {
+    background-image: url("../img/section1resized.jpg");
+}
+
+.hero-photos {
+    background-image: url("../img/slider9\(1\).jpg");
+}
+
+.hero-contact {
+    background-image: url("../img/slider9\(2\).jpg");
+}
+
+/* Optional: make headings shrink a bit on small screens */
+@media (max-width: 576px) {
+    .sub-hero-title {
+        font-size: 1.7rem;
+    }
+
+    .sub-hero-text {
+        font-size: 0.95rem;
+    }
+}
+
+
+
+.section-intro {
+    max-width: 700px;
+}
+
+.footer-text {
+    font-size: 0.85rem;
+    color: #9ca3af;
+}
+
+/* Cards */
+.card-text-muted {
+    color: #4b5563;
+    font-size: 0.95rem;
+}
+
+/* Photo thumbnails */
+.photo-thumb {
+    height: 180px;
+    object-fit: cover;
+}

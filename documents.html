@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Documents | Liberation War Archive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Catalog of historical documents, treaties, declarations, and official correspondence from the Liberation War of Bangladesh.">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="logo-title">Liberation War Archive</span>
+                <span class="logo-subtitle">Bangladesh · 1971</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="documents.html">Documents</a></li>
+                    <li class="nav-item"><a class="nav-link" href="interviews.html">Interviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="photos.html">Photographs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contribute / Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="sub-hero hero-documents">
+        <div class="sub-hero-overlay">
+            <h1 class="sub-hero-title">Documents Archive</h1>
+            <p class="sub-hero-text">
+                Explore official papers, declarations, treaties and correspondences from the Liberation War.
+            </p>
+        </div>
+    </section>
+
+
+    <main class="py-5">
+        <div class="container">
+            <h1 class="mb-3">Documents</h1>
+            <p class="section-intro text-muted mb-4">
+                A curated catalog of historical documents related to the Liberation War, including treaties,
+                declarations, and official correspondence.
+            </p>
+
+            <!-- Categories using Bootstrap tabs -->
+            <ul class="nav nav-pills mb-3" id="docTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-docs"
+                        type="button" role="tab">
+                        All
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="declarations-tab" data-bs-toggle="tab" data-bs-target="#declarations"
+                        type="button" role="tab">
+                        Declarations
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="treaties-tab" data-bs-toggle="tab" data-bs-target="#treaties"
+                        type="button" role="tab">
+                        Treaties
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="correspondence-tab" data-bs-toggle="tab"
+                        data-bs-target="#correspondence" type="button" role="tab">
+                        Official Correspondence
+                    </button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="docTabsContent">
+                <!-- All documents -->
+                <div class="tab-pane fade show active" id="all-docs" role="tabpanel">
+                    <div class="row g-4">
+                        <!-- Proclamation of Independence -->
+                        <div class="col-md-6">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Proclamation of Independence</h5>
+                                    <p class="mb-1"><strong>Type:</strong> Declaration</p>
+                                    <p class="mb-1"><strong>Date:</strong> 26 March 1971</p>
+                                    <p class="card-text card-text-muted flex-grow-1">
+                                        Unofficial proclamation announcing the independence of Bangladesh, circulated
+                                        among resistance groups.
+                                    </p>
+                                    <p class="mb-2"><strong>Source:</strong> Independence Archive, Dhaka University
+                                        </p>
+                                    <a href="Liberation.pdf"
+                                        class="btn btn-sm btn-outline-danger mt-auto" target="_blank" rel="noopener">
+                                        View PDF
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Joint Peace Treaty Excerpt -->
+                        <div class="col-md-6">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Joint Peace Treaty Excerpt</h5>
+                                    <p class="mb-1"><strong>Type:</strong> Treaty</p>
+                                    <p class="mb-1"><strong>Date:</strong> 10 August 1972</p>
+                                    <p class="card-text card-text-muted flex-grow-1">
+                                        Extract from a treaty outlining post-war reconstruction and diplomatic
+                                        recognition.
+                                    </p>
+                                    <p class="mb-2"><strong>Source:</strong> Government Records</p>
+                                    <a href="Liberation.pdf"
+                                        class="btn btn-sm btn-outline-danger mt-auto" target="_blank" rel="noopener">
+                                        View PDF
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Relief Coordination Letter -->
+                        <div class="col-md-6">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Relief Coordination Letter</h5>
+                                    <p class="mb-1"><strong>Type:</strong> Official Correspondence</p>
+                                    <p class="mb-1"><strong>Date:</strong> 2 November 1971</p>
+                                    <p class="card-text card-text-muted flex-grow-1">
+                                        Letter discussing coordination of relief operations for displaced civilians.
+                                    </p>
+                                    <p class="mb-2"><strong>Source:</strong> Relief Coordination Committee</p>
+                                    <a href="Liberation.pdf"
+                                        class="btn btn-sm btn-outline-danger mt-auto" target="_blank" rel="noopener">
+                                        View PDF
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Declarations tab -->
+                <div class="tab-pane fade" id="declarations" role="tabpanel">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Proclamation of Independence</h5>
+                                    <p class="mb-1"><strong>Date:</strong> 26 March 1971</p>
+                                    <p class="card-text card-text-muted flex-grow-1">
+                                        Unofficial proclamation announcing the independence of Bangladesh.
+                                    </p>
+                                    <p class="mb-2"><strong>Source:</strong> Independence Archive, Dhaka University
+                                        </p>
+                                    <a href="Liberation.pdf"
+                                        class="btn btn-sm btn-outline-danger mt-auto" target="_blank" rel="noopener">
+                                        View PDF
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Treaties tab -->
+                <div class="tab-pane fade" id="treaties" role="tabpanel">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Joint Peace Treaty Excerpt</h5>
+                                    <p class="mb-1"><strong>Date:</strong> 10 August 1972</p>
+                                    <p class="card-text card-text-muted flex-grow-1">
+                                        Extract from a treaty outlining post-war reconstruction and diplomatic
+                                        recognition.
+                                    </p>
+                                    <p class="mb-2"><strong>Source:</strong> Government Records</p>
+                                    <a href="Liberation.pdf"
+                                        class="btn btn-sm btn-outline-danger mt-auto" target="_blank" rel="noopener">
+                                        View PDF
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Correspondence tab -->
+                <div class="tab-pane fade" id="correspondence" role="tabpanel">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Relief Coordination Letter</h5>
+                                    <p class="mb-1"><strong>Date:</strong> 2 November 1971</p>
+                                    <p class="card-text card-text-muted flex-grow-1">
+                                        Letter discussing coordination of relief operations for displaced civilians.
+                                    </p>
+                                    <p class="mb-2"><strong>Source:</strong> Relief Coordination Committee</p>
+                                    <a href="Liberation.pdf"
+                                        class="btn btn-sm btn-outline-danger mt-auto" target="_blank" rel="noopener">
+                                        View PDF
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- /tab-content -->
+        </div>
+    </main>
+
+    <footer class="bg-dark py-3 mt-4">
+        <div class="container text-center">
+            <p class="footer-text mb-1">
+                &copy; 2025 Liberation War Archive of Bangladesh. All rights reserved.
+            </p>
+            <p class="footer-text mb-0">
+                This is a sample educational website. Replace placeholder content with verified historical sources.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

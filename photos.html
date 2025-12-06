@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Photographs | Liberation War Archive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description"
+        content="Photographs capturing events, locations, and people from the Liberation War of Bangladesh.">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="logo-title">Liberation War Archive</span>
+                <span class="logo-subtitle">Bangladesh · 1971</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="documents.html">Documents</a></li>
+                    <li class="nav-item"><a class="nav-link" href="interviews.html">Interviews</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="photos.html">Photographs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contribute / Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="sub-hero hero-photos">
+        <div class="sub-hero-overlay">
+            <h1 class="sub-hero-title">Photographs Gallery</h1>
+            <p class="sub-hero-text">
+                A curated visual collection of events, people and places from 1971.
+            </p>
+        </div>
+    </section>
+
+
+    <main class="py-5">
+        <div class="container">
+            <h1 class="mb-3">Photographs Gallery</h1>
+            <p class="section-intro text-muted mb-4">
+                A visual record of key moments, locations, and people from the Liberation War of Bangladesh.
+                Browse by category and select an image to view it in a larger format and download if needed.
+            </p>
+
+            <!-- Category tabs -->
+            <ul class="nav nav-pills mb-3" id="photoTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-photos"
+                        type="button" role="tab">
+                        All
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="events-tab" data-bs-toggle="tab" data-bs-target="#events-photos"
+                        type="button" role="tab">
+                        Events
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="locations-tab" data-bs-toggle="tab" data-bs-target="#locations-photos"
+                        type="button" role="tab">
+                        Locations
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="people-tab" data-bs-toggle="tab" data-bs-target="#people-photos"
+                        type="button" role="tab">
+                        People
+                    </button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="photoTabsContent">
+                <!-- All photos -->
+                <div class="tab-pane fade show active" id="all-photos" role="tabpanel" aria-labelledby="all-tab">
+                    <div class="row g-4">
+                        <!-- Photo 1 -->
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (1).jpg" class="card-img-top photo-thumb"
+                                    alt="Crowds assembled at a rally">
+                                <div class="card-body">
+                                    <h5 class="card-title">Crowds Assembled at Rally</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        A large public gathering calling for independence.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> Events · <strong>Year:</strong> 1971</p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal1">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (2).jpg" class="card-img-top photo-thumb"
+                                    alt="Crowds assembled at a rally">
+                                <div class="card-body">
+                                    <h5 class="card-title">Crowds Assembled at Rally</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        A large public gathering calling for independence.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> Events · <strong>Year:</strong> 1971</p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal2">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Photo 2 -->
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (3).jpg" class="card-img-top photo-thumb"
+                                    alt="Makeshift field hospital">
+                                <div class="card-body">
+                                    <h5 class="card-title">Makeshift Field Hospital</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        Medical volunteers treating wounded civilians near the border.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> Locations · <strong>Year:</strong> 1971
+                                    </p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal3">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (4).jpg" class="card-img-top photo-thumb"
+                                    alt="Makeshift field hospital">
+                                <div class="card-body">
+                                    <h5 class="card-title">Makeshift Field Hospital</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        Medical volunteers treating wounded civilians near the border.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> Locations · <strong>Year:</strong> 1971
+                                    </p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal4">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Photo 3 -->
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (5).jpg" class="card-img-top photo-thumb"
+                                    alt="Portrait of a freedom fighter">
+                                <div class="card-body">
+                                    <h5 class="card-title">Portrait of a Freedom Fighter</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        A young volunteer photographed shortly before deployment.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> People · <strong>Year:</strong> 1971</p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal5">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (6).jpg" class="card-img-top photo-thumb"
+                                    alt="Portrait of a freedom fighter">
+                                <div class="card-body">
+                                    <h5 class="card-title">Portrait of a Freedom Fighter</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        A young volunteer photographed shortly before deployment.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> People · <strong>Year:</strong> 1971</p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal6">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Events category -->
+                <div class="tab-pane fade" id="events-photos" role="tabpanel" aria-labelledby="events-tab">
+                    <div class="row g-4">
+                        <!-- Photo 1 (Events) -->
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (1).jpg" class="card-img-top photo-thumb"
+                                    alt="Crowds assembled at a rally">
+                                <div class="card-body">
+                                    <h5 class="card-title">Crowds Assembled at Rally</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        A large public gathering calling for independence.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> Events · <strong>Year:</strong> 1971</p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal1">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (2).jpg" class="card-img-top photo-thumb"
+                                    alt="Crowds assembled at a rally">
+                                <div class="card-body">
+                                    <h5 class="card-title">Crowds Assembled at Rally</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        A large public gathering calling for independence.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> Events · <strong>Year:</strong> 1971</p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal2">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="events-photos" role="tabpanel" aria-labelledby="events-tab">
+                    <div class="row g-4">
+                        <!-- Photo 1 (Events) -->
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (1).jpg" class="card-img-top photo-thumb"
+                                    alt="Crowds assembled at a rally">
+                                <div class="card-body">
+                                    <h5 class="card-title">Crowds Assembled at Rally</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        A large public gathering calling for independence.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> Events · <strong>Year:</strong> 1971</p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal1">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (2).jpg" class="card-img-top photo-thumb"
+                                    alt="Crowds assembled at a rally">
+                                <div class="card-body">
+                                    <h5 class="card-title">Crowds Assembled at Rally</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        A large public gathering calling for independence.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> Events · <strong>Year:</strong> 1971</p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal2">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Locations category -->
+                <div class="tab-pane fade" id="locations-photos" role="tabpanel" aria-labelledby="locations-tab">
+                    <div class="row g-4">
+                        <!-- Photo 2 (Locations) -->
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (3).jpg" class="card-img-top photo-thumb"
+                                    alt="Makeshift field hospital">
+                                <div class="card-body">
+                                    <h5 class="card-title">Makeshift Field Hospital</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        Medical volunteers treating wounded civilians near the border.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> Locations · <strong>Year:</strong> 1971
+                                    </p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal3">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (4).jpg" class="card-img-top photo-thumb"
+                                    alt="Makeshift field hospital">
+                                <div class="card-body">
+                                    <h5 class="card-title">Makeshift Field Hospital</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        Medical volunteers treating wounded civilians near the border.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> Locations · <strong>Year:</strong> 1971
+                                    </p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal4">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="locations-photos" role="tabpanel" aria-labelledby="locations-tab">
+                    <div class="row g-4">
+                        <!-- Photo 2 (Locations) -->
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (3).jpg" class="card-img-top photo-thumb"
+                                    alt="Makeshift field hospital">
+                                <div class="card-body">
+                                    <h5 class="card-title">Makeshift Field Hospital</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        Medical volunteers treating wounded civilians near the border.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> Locations · <strong>Year:</strong> 1971
+                                    </p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal3">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (4).jpg" class="card-img-top photo-thumb"
+                                    alt="Makeshift field hospital">
+                                <div class="card-body">
+                                    <h5 class="card-title">Makeshift Field Hospital</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        Medical volunteers treating wounded civilians near the border.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> Locations · <strong>Year:</strong> 1971
+                                    </p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal4">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- People category -->
+                <div class="tab-pane fade" id="people-photos" role="tabpanel" aria-labelledby="people-tab">
+                    <div class="row g-4">
+                        <!-- Photo 3 (People) -->
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (5).jpg" class="card-img-top photo-thumb"
+                                    alt="Portrait of a freedom fighter">
+                                <div class="card-body">
+                                    <h5 class="card-title">Portrait of a Freedom Fighter</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        A young volunteer photographed shortly before deployment.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> People · <strong>Year:</strong> 1971</p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal5">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (6).jpg" class="card-img-top photo-thumb"
+                                    alt="Portrait of a freedom fighter">
+                                <div class="card-body">
+                                    <h5 class="card-title">Portrait of a Freedom Fighter</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        A young volunteer photographed shortly before deployment.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> People · <strong>Year:</strong> 1971</p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal6">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="people-photos" role="tabpanel" aria-labelledby="people-tab">
+                    <div class="row g-4">
+                        <!-- Photo 3 (People) -->
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (5).jpg" class="card-img-top photo-thumb"
+                                    alt="Portrait of a freedom fighter">
+                                <div class="card-body">
+                                    <h5 class="card-title">Portrait of a Freedom Fighter</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        A young volunteer photographed shortly before deployment.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> People · <strong>Year:</strong> 1971</p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal5">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gal (6).jpg" class="card-img-top photo-thumb"
+                                    alt="Portrait of a freedom fighter">
+                                <div class="card-body">
+                                    <h5 class="card-title">Portrait of a Freedom Fighter</h5>
+                                    <p class="card-text card-text-muted mb-2">
+                                        A young volunteer photographed shortly before deployment.
+                                    </p>
+                                    <p class="mb-2"><strong>Category:</strong> People · <strong>Year:</strong> 1971</p>
+                                    <button class="btn btn-sm btn-danger" data-bs-toggle="modal"
+                                        data-bs-target="#photoModal6">
+                                        View &amp; Download
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- /tab-content -->
+        </div>
+
+        <!-- Modal 1 -->
+        <div class="modal fade" id="photoModal1" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title">Crowds Assembled at Rally</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="img/gal (1).jpg" alt="Crowds assembled at a rally" class="img-fluid mb-2">
+                        <p class="small text-muted">
+                            A large public gathering calling for independence. (Example image placeholder)
+                        </p>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <a href="img/gal (1).jpg" download class="btn btn-outline-light btn-sm">
+                            Download image
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="photoModal2" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title">Crowds Assembled at Rally</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="img/gal (2).jpg" alt="Crowds assembled at a rally" class="img-fluid mb-2">
+                        <p class="small text-muted">
+                            A large public gathering calling for independence. (Example image placeholder)
+                        </p>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <a href="img/gal (2).jpg" download class="btn btn-outline-light btn-sm">
+                            Download image
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="photoModal3" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title">Crowds Assembled at Rally</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="img/gal (3).jpg" alt="Crowds assembled at a rally" class="img-fluid mb-2">
+                        <p class="small text-muted">
+                            A large public gathering calling for independence. (Example image placeholder)
+                        </p>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <a href="img/gal (3).jpg" download class="btn btn-outline-light btn-sm">
+                            Download image
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="photoModal4" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title">Crowds Assembled at Rally</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="img/gal (4).jpg" alt="Crowds assembled at a rally" class="img-fluid mb-2">
+                        <p class="small text-muted">
+                            A large public gathering calling for independence. (Example image placeholder)
+                        </p>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <a href="img/gal (4).jpg" download class="btn btn-outline-light btn-sm">
+                            Download image
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 2 -->
+        <div class="modal fade" id="photoModal5" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title">Makeshift Field Hospital</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="img/gal (5).jpg" alt="Makeshift field hospital" class="img-fluid mb-2">
+                        <p class="small text-muted">
+                            Medical volunteers treating wounded civilians near the border. (Example image placeholder)
+                        </p>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <a href="img/gal (5).jpg" download class="btn btn-outline-light btn-sm">
+                            Download image
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="photoModal6" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title">Makeshift Field Hospital</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="img/gal (6).jpg" alt="Makeshift field hospital" class="img-fluid mb-2">
+                        <p class="small text-muted">
+                            Medical volunteers treating wounded civilians near the border. (Example image placeholder)
+                        </p>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <a href="img/gal (6).jpg" download class="btn btn-outline-light btn-sm">
+                            Download image
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-dark py-3 mt-4">
+        <div class="container text-center">
+            <p class="footer-text mb-1">
+                &copy; 2025 Liberation War Archive of Bangladesh. All rights reserved.
+            </p>
+            <p class="footer-text mb-0">
+                This is a sample educational website. Replace placeholder content with verified historical sources.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
